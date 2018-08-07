@@ -789,4 +789,4 @@ let commandfile = client.commands.get(cmd.slice(prefix.length))
 
 
 
-client.login("NDQxNDA4NzI5MTc1MjkzOTc1.DhXpTA.NmEINzcifiWCj_npKa-x_2anKLU")
+client.login(TOKEN)
