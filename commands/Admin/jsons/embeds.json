@@ -1,0 +1,29 @@
+{
+    "defaultColor": "#00ff94",
+    "global":{
+      "commandNotFound":{
+        "color": "#ff6600",
+         "title": "Command not Found!",
+         "desc": "The command `#COMMAND#` was not found. For help try `#PREFIX#help`."
+      },
+      "missingArgs":{
+        "color": "#ffff00",
+        "title": "Missing Arguments!",
+        "desc": "The `#ARGS#` argument is required for this command to work. (Usage: `#USAGE#`)"
+      },
+      "noPermissions":{
+        "color": "#ff6600",
+        "title": "Insufficient Permissions!",
+        "desc": "You need the #PERMISSIONS# permission(s) in order to access this command!"
+      },
+      "commandError":{
+        "color": "#ff0000",
+        "title": "Command Error Occured!",
+        "desc": "An error occured when running this command."
+      },
+      "devCommandError":{
+        "color": "#ff0000",
+        "title": "Command Error Occured!"
+      }
+    }
+  }
