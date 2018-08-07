@@ -1,0 +1,12 @@
+const og = message.content.split(" ").slice(1).join(" ");
+
+if (!og){
+
+
+}
+if (og === "8ball"){
+    let embed = new Discord.RichEmbed()
+        .setColor("#008080")
+        .addField("Example", "**`CMD` <-> `Example`**");
+    message.channel.send({embed: embed})
+}
